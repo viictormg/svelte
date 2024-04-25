@@ -3,6 +3,7 @@
 	import Text from "./components/Text.svelte";
 	import Person from "./components/Person.svelte";
 	import Skills from "./components/Skills.svelte";
+	import Input from "./components/Input.svelte";
 	export let name;
 	export let lastName;
 	let svelterLogo =  "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
@@ -21,6 +22,7 @@
 	<About/>
 	<Text anotherText="SVELTE"/>
 	<Skills/>
+	<Input/>
 	<img src="{svelterLogo}" alt="svelte">
 </main>
 
